@@ -1,71 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  background-color: gray;
+  font-family: "Roboto", sans-serif;
 }
-/* Container Section Start */
 .container {
-  background-color: black;
-  color: #fff;
   max-width: 1000px;
-  height: 100vh;
-  margin: 0px auto;
+  background-color: black;
+  margin: 0 auto;
   padding: 10px;
 }
-a {
-  text-decoration: none;
-  color: white;
+/* Header Start */
+.profile-image {
+  height: 100px;
+  width: 100px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  float: left;
 }
 
+.header-bio {
+  float: left;
+  padding: 18px;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-  color: #11999e;
+h6,p{
+  color: white;
 }
-/* Container Section End */
 
-/* Header Section Start */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.header-contact {
+  float: right;
+  padding: 30px;
 }
-.image {
-  height: 100px;
-  width: 100px;
+.header-contact a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
-.self-info {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.header-contact a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+.div-clear {
+  clear: both;
 }
 hr {
-  border: solid white 1px;
-  margin: 10px 0;
+  border: solid white 3px;
+  border-radius: 3px;
+  border-bottom: none;
+  margin: 20px auto;
 }
-.firt-hr hr{
-    border: solid white 2px;
-    border-radius: 2px;
-    
+/* Header End */
 
-}
-/* Header Section End */
-
-/* ------------------------
-Personal Section Start
---------------------------*/
+/*------------------------
+Personal Infromation
+-------------------------*/
 #personal-section {
-    margin: 20px 0;
-    padding-bottom: 10px;
 }
-
 
 .left-div {
   width: 30%;
@@ -73,10 +72,11 @@ Personal Section Start
 }
 .right-div {
   width: 70%;
-  float: right;
+  float: left;
 }
-
-.div-clear{
-    clear: both;
-    margin:10px 0;
+.common-hr{
+  border: sold white 1px;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
 }
