@@ -65,7 +65,9 @@ Personal Infromation
 -------------------------*/
 #personal-section {
 }
-
+.content{
+  margin-bottom: 30px;
+}
 .left-div {
   width: 30%;
   float: left;
@@ -74,9 +76,27 @@ Personal Infromation
   width: 70%;
   float: left;
 }
-.common-hr{
-  border: sold white 1px;
+.common-hr hr{
+  border: sold white 0.1px;
   border-bottom: none;
   width: 100%;
   margin: 20px auto;
+}
+.right-div .ul-style{
+  color: white;
+  padding-left: 25px;
+}
+
+
+/*------------
+Education Section Start
+--------------*/
+
+.edu-template-left{
+  float: left;
+  width: 45%;
+}
+.edu-template-right{
+  float: right;
+  width: 45%;
 }
